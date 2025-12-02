@@ -3,8 +3,7 @@
         <div class="bg-primary flex items-center justify-center">
             <div class="lebar_default text-white space-y-2 hidden md:block text-center">
                 <div class="flex items-center justify-center gap-3 py-5">
-                    <div class="w-14 h-14 rounded-full bg-accent"></div>
-                    <div class="text-5xl font-extrabold text-accent">RMCKS</div>
+                      <x-icons.logo class="text-accent size-52" />
                 </div>
                 <h1 class="text-7xl font-semibold">Halaman Login</h1>
                 <h1 class="font-medium text-xl">Silahkan Login Terlebih Dahulu</h1>

@@ -4,8 +4,8 @@
         <div class="lebar_default w-full h-full flex items-center text-white">
             <div class="flex justify-between w-full items-center">
                 <a href="/" wire:navigate class="flex items-center justify-center gap-5">
-                    <div class="h-10 w-10 bg-accent rounded-full"></div>
-                    <div class="hidden md:block md:text-2xl font-extrabold drop-shadow-2xl drop-shadow-primary">ReportMakanan<span class="text-accent">CKS</span></div>
+                    <x-icons.logo class="text-accent size-14" />
+                    <div class="hidden md:block md:text-2xl font-extrabold drop-shadow-2xl drop-shadow-primary">Cap<span class="text-accent"> Karoso</span></div>
                 </a>
                 <a href="/login" wire:navigate class="px-5 py-1 rounded-full outline-2 hover:text-accent hover:outline-accent">Login</a>
             </div>
