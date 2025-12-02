@@ -10,7 +10,7 @@
             <div class="w-full">
                 <div class="w-full flex flex-col gap-1">
                     <a wire:navigate href="{{ route('dashboard') }}" class="py-3 px-2 w-full rounded-xl  {{ request()->routeIs('dashboard') ? 'bg-accent text-primary' : 'text-accent hover:bg-secondary'}}">Dashboard</a>
-                    <a wire:navigate href="{{ route('outlite') }}" class="py-3 px-2 w-full rounded-xl  {{ request()->routeIs('outlite') ? 'bg-accent text-primary' : 'text-accent    hover:bg-secondary'}}">Outlite</a>
+                    <a wire:navigate href="{{ route('outlet') }}" class="py-3 px-2 w-full rounded-xl  {{ request()->routeIs('outlet') ? 'bg-accent text-primary' : 'text-accent    hover:bg-secondary'}}">Outlet</a>
                 </div>
             </div>
         </div>

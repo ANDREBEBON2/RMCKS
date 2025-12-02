@@ -8,6 +8,7 @@
     </head>
     <body class="bg-gray-100">
         <livewire:comoponents.sidebar/>
+
         <div class="ml-[250px] px-5 py-5">
             {{ $slot }}
         </div>
