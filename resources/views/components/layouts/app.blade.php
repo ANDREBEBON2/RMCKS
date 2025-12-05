@@ -6,7 +6,7 @@
         @vite('resources/css/app.css')
         <title>{{ $title ?? config('app.name') }}</title>
     </head>
-    <body class="bg-gray-100">
+    <body class="bg-gray-100 selection:bg-accent selection:text-primary select-text">
         <livewire:comoponents.sidebar/>
 
         <div class="md:ml-[250px] px-5 py-5">
