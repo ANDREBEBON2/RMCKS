@@ -3,6 +3,6 @@
         <div class="md:hidden">
             <button class="p-2">M</button>
         </div>
-        <h1 class="font-semibold">{{ $slot }}</h1>
+        <h1 class="font-semibold text-primary">{{ $slot }}</h1>
     </div>
 </div>

@@ -23,7 +23,7 @@
                         <div class="absolute -top-4 left-3">
                             <span class="text-white text-xs bg-primary">Admin Master</span>
                         </div>
-                        <a wire:navigate href="{{ route('user') }}" class=" flex gap-3 py-3 px-2 w-full rounded-xl  {{ request()->routeIs('user') ? 'bg-accent text-primary' : 'text-accent    hover:bg-secondary'}}">
+                        <a wire:navigate href="{{ route('user') }}" class=" flex gap-3 py-3 px-2 w-full rounded-xl  {{ request()->routeIs('user*') ? 'bg-accent text-primary' : 'text-accent    hover:bg-secondary'}}">
                             <x-icons.group class="size-6"/>
                             <span>User</span>
                         </a>

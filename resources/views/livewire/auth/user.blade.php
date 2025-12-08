@@ -5,10 +5,10 @@
 
     {{-- button --}}
     <div class="py-2">
-        <button class="bg-primary text-accent px-3 py-2 flex items-center gap-1 rounded text-sm hover:scale-95 transform transition-all duration-200">
+        <a href="{{ route('user.register') }}" wire:navigate class="w-fit bg-primary text-accent px-3 py-2 flex items-center gap-1 rounded text-sm hover:scale-95 transform transition-all duration-200">
             <x-icons.add class="size-3"/>
             <span>Add User</span>
-        </button>
+        </a>
     </div>
 
     {{-- table --}}
