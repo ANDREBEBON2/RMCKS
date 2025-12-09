@@ -12,7 +12,7 @@ class User extends Component
 
     public function render()
     {
-        $users = ModelsUser::latest()->paginate(10);
+        $users = ModelsUser::where('role', 'user')->latest()->paginate(10);
         return view('livewire.auth.user', [
             'users' => $users
         ]);
